@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_utils_lessons",
+  "info": {
+    "displayName": "subject",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subject": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::subject.subject"
+    },
+    "count": {
+      "type": "integer"
+    }
+  }
+}

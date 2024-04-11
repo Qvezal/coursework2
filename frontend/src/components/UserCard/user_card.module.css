@@ -1,0 +1,10 @@
+.user_card {
+    max-width: 560px;
+}
+
+.image {
+    height: 200px;
+    width: auto; 
+    object-fit: fill;
+    border-radius: var(--border-radius);
+}

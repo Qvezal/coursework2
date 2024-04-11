@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_utils_users",
+  "info": {
+    "displayName": "user",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "fio": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "mail": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.authorize {
+    background-color: #D9DBF1;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin-top: 180px;
+}
+
+.EnterWord {
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+.Login, .Password {
+    margin: auto;
+    margin-top: 35px;
+    text-align: left;
+    width: 300px;
+    font-size: 22px;
+}
+
+.LoginWord, .PasswordWord {
+    margin-bottom: 15px;
+}
+
+.LoginInput, .PasswordInput {
+    height: 40px;
+    border-radius: 15px;
+    outline: none;
+    box-shadow: none;
+    padding-left: 15px;
+    font-size: 18px;
+    border: none;
+    width: 300px;
+}
+
+.err {
+    background-color: #ff8585;
+}
+
+.Button {
+    margin-top: 40px;
+    font-size: 24px;
+    background-color: white;
+    width: 160px;
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+}
+
+.login_card {
+    max-width: 500px;
+    margin: 0 auto;
+}

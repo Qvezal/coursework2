@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "groups",
+  "info": {
+    "singularName": "group",
+    "pluralName": "groups",
+    "displayName": "group",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "students": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::student.student",
+      "mappedBy": "group"
+    },
+    "curator": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::teacher.teacher",
+      "inversedBy": "groups"
+    },
+    "number": {
+      "type": "string"
+    },
+    "lessons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::lesson.lesson",
+      "mappedBy": "group"
+    },
+    "subject_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.lesson"
+    }
+  }
+}
